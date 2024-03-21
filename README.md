@@ -16,16 +16,21 @@ and privacy-protected radiogenomic data analysis tool.
 
 RadGen4COPD's first objective is to provide an open-source, GDPR compliance technical solution to be used in Health. 
 In particular, we aim to translate radiogenomics into precision respiratory medicine through facilitating federated analyses. 
-To this end, we will implement our infrastructure (RadioSHIELD) to analyse data from a large 
+To this end, we will implement our infrastructure (`RadioSHIELD`) to analyse data from a large 
 consortium having multi-level (clinical, functional, imaging and molecular) profiling of well-characterized patients with COPD.
 
 
 ## RadioSHIELD Structure
 
-The `Radio4COPD`  ecosystem comprises several components designed to work in conjunction or standalone using 
-[DataSHIELD](https://www.datashield.org/about/about-datashield-collated) environment. These include
+The `RadioSHIELD`  ecosystem comprises several components designed to work in conjunction or standalone using 
+[DataSHIELD](https://www.datashield.org/about/about-datashield-collated) environment. These include next DataSHIELD libraries to integrate 
+different types o data you can manage at each server
 
-     - 
+- `dsOmics`: 
+- `dsImaging`:
+- `dsOMOP`:
 
+Other developments include specific libraries to do some tasks required for personalized medicine in federated systems such as
 
-tandem: the server-side package and the client-side package. Each component plays a pivotal role in the integration of OMOP CDM databases within the DataSHIELD environment. For comprehensive details on installation, setup, and usage, please refer to the respective repositories:
+- `dsFDL`:
+

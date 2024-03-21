@@ -2,7 +2,6 @@
 
 <img src="radgen4COPD_fig.png" align="left" height="360" style="margin-right: 10px;" />
 
-
 Radiogenomics combines a large volume of quantitative data extracted from medical images with individual genomes. It is been used in
 neurological and cancer research. However, there is a lack of studies of other common diseases with a heavy imaging component. It is
 largely unknown, for instance, the genetic basis of imaging biomarkers of lung diseases such as chronic obstructive pulmonary disease
@@ -26,11 +25,10 @@ The `RadioSHIELD`  ecosystem comprises several components designed to work in co
 [DataSHIELD](https://www.datashield.org/about/about-datashield-collated) environment. These include next DataSHIELD libraries to integrate 
 different types o data you can manage at each server
 
-- `dsOmics`: 
-- `dsImaging`:
-- `dsOMOP`:
+- [`dsOmics`](https://github.com/isglobal-brge/dsOmics): This package provides a collection of functions designed for the non-disclosive analysis of Omics data within the DataSHIELD environment, leveraging the Bioconductor project's resources. It enables the integration and analysis of genomic data in a secure manner.
+- [`dsImaging`](https://github.com/isglobal-brge/dsImaging): This package provides a set of functions to interact with medical images in various formats. It integrates the application of segmentation filters (masks) on images and the application of analysis models, including feature extraction through radiomics and computer vision-trained models.
+- [`dsOMOP`](https://github.com/isglobal-brge/dsOMOP): This package facilitates interaction with remote databases in the OMOP CDM format from a DataSHIELD environment. It is responsible for fetching and transforming data from databases into a user-intelligible table format, integrated into the DataSHIELD workflow to ensure compliance with the DataSHIELD security model.
 
 Other developments include specific libraries to do some tasks required for personalized medicine in federated systems such as
 
-- `dsFDL`:
-
+- [`dsFDL`](https://github.com/isglobal-brge/dsFDL): **Currently under development.** This package enables the training of AI models within federated environments using DataSHIELD. It is designed to facilitate the development and deployment of machine learning algorithms in a secure and privacy-preserving manner.

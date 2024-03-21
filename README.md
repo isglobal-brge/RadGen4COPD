@@ -1,6 +1,6 @@
 # RadGen4COPD: Radiogenomics for personalized medicine in chronic obstructive pulmonary disease
 
-<img src="radgen4COPD_fig.png" align="left" height="140" style="margin-right: 10px;" />
+<img src="radgen4COPD_fig.png" align="left" height="240" style="margin-right: 10px;" />
 
 
 Radiogenomics combines a large volume of quantitative data extracted from medical images with individual genomes. It is been used in
